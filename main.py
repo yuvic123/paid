@@ -15,8 +15,8 @@ client = discord.Client(intents=intents)
 
 GITHUB_API_URL = "https://api.github.com/repos/yuvic123/paid/contents/paidlist"
 
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")  # GitHub token from environment variables
-DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")  # Discord token from environment variables
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")  
+DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")  
 
 ALLOWED_USERS = [
     1279868613628657860,
